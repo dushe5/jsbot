@@ -148,7 +148,7 @@ class newKeyScenesGenerator {
         await ctx.scene.leave();
       } else if (userAnswer === "н" || userAnswer === "n") {
         await ctx.reply("Миша, давай по новой, всё ...");
-        await ctx.scene.enter("userId");
+        await ctx.scene.enter("userName");
       } else {
         await ctx.scene.reenter();
       }
